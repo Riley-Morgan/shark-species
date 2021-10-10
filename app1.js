@@ -1,7 +1,7 @@
 // console.log ("We Made It");
 
-// let userName = 'Rad';
-// let userLastName = 'Riley';
+// let userName = 'Riley';
+// let userLastName = 'Morgan';
 
 // console.log(userName + ' ' + userLastName)
 
@@ -19,5 +19,11 @@
 let userName = prompt('Enter the secret word!');
 console.log(userName);
 
-document.write(userName);
+if(userName == 'Riley'){
+    document.write('<h2>Welcome back, totally Rad ' + userName + '!</h2>');
+} else{
+    document.write('<h2>Welcome ' + userName + '</h2>');
+}
+
+// document.write('<h2>' + userName + '</h2>');
 
